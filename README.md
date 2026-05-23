@@ -11,3 +11,15 @@ what is react?
 
  Note:
  - Framework is a template
+
+
+ Steps to setup environment for react:
+ - node -v [to check whether node insatlled and what version]
+ - configure the build tool -> vite
+        - npm install vite@latest [to install vite]
+        - npm create vite@latest , then projectName, package name, select framework (here react), select version (here javascript) and then yes
+ - then type these commands:
+        - cd React-App (here)
+        - npm install
+        - npm run dev
+
