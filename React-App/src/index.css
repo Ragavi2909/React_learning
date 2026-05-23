@@ -1,3 +1,18 @@
-/* .card{
-  background-color: aqua;
-} */   /*external style*/
+.card{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;  /*Hide anything that goes outside the box.”*/
+    font-family: sans-serif;
+    background-color: beige;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    display: inline-block; /*all will be in same line*/
+}
+
+.card img{
+    width: 100%;
+    
+}
+
