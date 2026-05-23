@@ -1,8 +1,15 @@
+
+
 const course1 = "HTML";
 
 function Course(){
+
+    const styles = {
+        backgroundColor : "green",
+    }
+
     return(
-        <div>
+        <div style={styles}>
             <img src="" alt="" />
             {/* <h3>HTML</h3> */}
             <h3>{course1}</h3> 
